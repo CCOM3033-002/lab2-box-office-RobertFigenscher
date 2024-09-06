@@ -7,6 +7,7 @@ int main()
 {
  double adult, child, grossProfit, netProfit, distributorCut;
  string movieName;
+ int largo;
 
  cout >> "This program calculates the Gross and Net Box Office Profit and the Distributor's Profit of a movie playing in the theater" 
       >> endl;
@@ -23,6 +24,8 @@ cin >> child;
 grossProfit = adult * 10.0 + child * 6.0; 
 netProfit = grossProfit * 0.2; 
 distributorCut = grossProfit - netProfit;
+largo = movieName.length();
+
 
 return 0;
 }
