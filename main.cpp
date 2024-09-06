@@ -1,6 +1,6 @@
-#include iostream
-#include iomanip
-#include string
+#include <iostream>
+#include <iomanip>
+#include <string>
 using namespace std; 
 
 int main()
@@ -29,7 +29,7 @@ distributorCut = grossProfit - netProfit;
 cout << "Movie Name:" << "/"" << movieName << "/"" << endl; 
 cout << "Adult Tickets Sold:" << adult << endl; 
 cout << "Child Tickcets Sold:" << child << endl;
-cout << << setprecision(2) << fixed;
+cout << setprecision(2) << fixed;
 cout << "Gross Box Office Profit:" << "$"  << grossProfit << endl;
 cout << "Net Box Office Profit:" << "$" << netProfit << endl;
 cout << "Amount Paid To Distributor:" << "$" << distributorCut << endl;
