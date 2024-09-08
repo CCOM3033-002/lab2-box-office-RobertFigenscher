@@ -13,7 +13,7 @@ int main()
       << endl;
  
 cout << "Please enter the name of the movie: "; 
-cin >> movieName; 
+getline(cin,movieName); 
 cout << endl 
      << "Please enter the amount of adult tickets sold";
 cin >> adult;
@@ -26,7 +26,7 @@ grossProfit = adult * 10.0 + child * 6.0;
 netProfit = grossProfit * 0.2; 
 distributorCut = grossProfit - netProfit;
 
-cout << "Movie Name:" << "/"" << movieName << "/"" << endl; 
+cout << "Movie Name:" << '\"' << movieName << '\"' << endl; 
 cout << "Adult Tickets Sold:" << adult << endl; 
 cout << "Child Tickcets Sold:" << child << endl;
 cout << setprecision(2) << fixed;
