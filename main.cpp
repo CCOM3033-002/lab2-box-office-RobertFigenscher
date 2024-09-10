@@ -28,7 +28,7 @@ distributorCut = grossProfit - netProfit;
 
 cout << "Movie Name:" << '\"' << movieName << '\"' << endl; 
 cout << "Adult Tickets Sold:" << adult << endl; 
-cout << "Child Tickcets Sold:" << child << endl;
+cout << "Child Tickets Sold:" << child << endl;
 cout << setprecision(2) << fixed;
 cout << "Gross Box Office Profit:" << "$"  << grossProfit << endl;
 cout << "Net Box Office Profit:" << "$" << netProfit << endl;
